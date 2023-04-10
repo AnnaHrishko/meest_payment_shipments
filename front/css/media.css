@@ -1,0 +1,65 @@
+@media screen and (max-width: 1248px) {
+  .payment_card .info .decr {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .payment_flex_blocks .payment_wrap {
+    width: calc(50% - 10px);
+  }
+  .payment_flex_blocks .payment_wrap:nth-child(2n+1) {
+    margin-right: 20px;
+  }
+  .payment_card {
+    padding: 15px;
+  }
+  .payment_card .top .way_row .number_card {
+    font-size: 25px;
+  }
+  .payment_card .top .way_row .text {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .payment_flex_blocks {
+    flex-direction: column;
+    padding: 40px 0 70px;
+  }
+  .payment_flex_blocks .payment_wrap {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .payment_card .info .instruction_line {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .payment_card_flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .payment_card_flex .col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .payment_card_flex .col:last-of-type {
+    margin-bottom: 0;
+  }
+  .top_payment_shipments h1 {
+    font-size: 30px;
+  }
+  .bread_crumbs li {
+    font-size: 10px;
+  }
+  .bread_crumbs li a {
+    font-size: 10px;
+  }
+  .payment_wrap .heading {
+    font-size: 25px;
+  }
+  .payment_wrap .sub_heading {
+    font-size: 13px;
+  }
+}
